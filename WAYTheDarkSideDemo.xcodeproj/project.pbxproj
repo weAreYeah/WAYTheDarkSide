@@ -10,8 +10,8 @@
 		4D0A87B91A1B701D008890CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87B81A1B701D008890CD /* AppDelegate.m */; };
 		4D0A87BB1A1B701D008890CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87BA1A1B701D008890CD /* main.m */; };
 		4D0A87C01A1B701D008890CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A87BE1A1B701D008890CD /* MainMenu.xib */; };
-		4D0A87D81A1B71E4008890CD /* WAYTheDarkSide.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87D61A1B71E4008890CD /* WAYTheDarkSide.h */; };
-		4D0A87D91A1B71E4008890CD /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87D71A1B71E4008890CD /* WAYTheDarkSide.m */; };
+		4D0A87E71A1B8FB9008890CD /* WAYTheDarkSide.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87E51A1B8FB9008890CD /* WAYTheDarkSide.h */; };
+		4D0A87E81A1B8FB9008890CD /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87E61A1B8FB9008890CD /* WAYTheDarkSide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +23,8 @@
 		4D0A87BF1A1B701D008890CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4D0A87CA1A1B701D008890CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0A87CB1A1B701D008890CD /* WAYTheDarkSideDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSideDemoTests.m; sourceTree = "<group>"; };
-		4D0A87D61A1B71E4008890CD /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
-		4D0A87D71A1B71E4008890CD /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
+		4D0A87E51A1B8FB9008890CD /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
+		4D0A87E61A1B8FB9008890CD /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		4D0A87B41A1B701D008890CD /* WAYTheDarkSideDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4D0A87D51A1B71D0008890CD /* WAYTheDarkSide */,
+				4D0A87E41A1B8FB9008890CD /* WAYTheDarkSide */,
 				4D0A87B71A1B701D008890CD /* AppDelegate.h */,
 				4D0A87B81A1B701D008890CD /* AppDelegate.m */,
 				4D0A87BE1A1B701D008890CD /* MainMenu.xib */,
@@ -93,14 +93,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4D0A87D51A1B71D0008890CD /* WAYTheDarkSide */ = {
+		4D0A87E41A1B8FB9008890CD /* WAYTheDarkSide */ = {
 			isa = PBXGroup;
 			children = (
-				4D0A87D61A1B71E4008890CD /* WAYTheDarkSide.h */,
-				4D0A87D71A1B71E4008890CD /* WAYTheDarkSide.m */,
+				4D0A87E51A1B8FB9008890CD /* WAYTheDarkSide.h */,
+				4D0A87E61A1B8FB9008890CD /* WAYTheDarkSide.m */,
 			);
-			name = WAYTheDarkSide;
-			sourceTree = "<group>";
+			path = WAYTheDarkSide;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -170,8 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0A87D91A1B71E4008890CD /* WAYTheDarkSide.m in Sources */,
-				4D0A87D81A1B71E4008890CD /* WAYTheDarkSide.h in Sources */,
+				4D0A87E81A1B8FB9008890CD /* WAYTheDarkSide.m in Sources */,
+				4D0A87E71A1B8FB9008890CD /* WAYTheDarkSide.h in Sources */,
 				4D0A87BB1A1B701D008890CD /* main.m in Sources */,
 				4D0A87B91A1B701D008890CD /* AppDelegate.m in Sources */,
 			);
