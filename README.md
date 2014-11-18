@@ -1,9 +1,9 @@
 WAYTheDarkSide
 ==============
 
-The ```WAYTheDarkSide``` class provides several helper methods to handle OS X Yosemite's new Dark Mode. Use this class to determine if the system appearance is currently set up to be in the Dark Mode or not, and if it supports it anyways. Next, specify event handlers per view or window controller (or any other object), which will be performed whenever the user switches the Dark Mode system preferene.
+The WAYTheDarkSide class provides several helper methods to handle OS X Yosemite's new Dark Mode. Use this class to determine if the system appearance is currently set up to be in the Dark Mode or not, and if it supports it anyways. Next, specify event handlers per view or window controller (or any other object), which will be performed whenever the user switches the Dark Mode system preferene.
 
-Whenever it makes sense, the properties of your WAYSourceListWindow instance in Interface Builder are inspectable.
+Yes, the names are a little ironic.
 
 Example
 -------
