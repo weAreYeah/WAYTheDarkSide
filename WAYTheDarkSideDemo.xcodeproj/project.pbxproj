@@ -13,7 +13,6 @@
 		4D0A87CC1A1B701D008890CD /* WAYTheDarkSideDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87CB1A1B701D008890CD /* WAYTheDarkSideDemoTests.m */; };
 		4D0A87D81A1B71E4008890CD /* WAYTheDarkSide.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87D61A1B71E4008890CD /* WAYTheDarkSide.h */; };
 		4D0A87D91A1B71E4008890CD /* WAYTheDarkSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87D71A1B71E4008890CD /* WAYTheDarkSide.m */; };
-		4D0A87E31A1B8EAC008890CD /* WAYTheDarkSide Example.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A87E21A1B8EAC008890CD /* WAYTheDarkSide Example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,6 @@
 		4D0A87CB1A1B701D008890CD /* WAYTheDarkSideDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSideDemoTests.m; sourceTree = "<group>"; };
 		4D0A87D61A1B71E4008890CD /* WAYTheDarkSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = WAYTheDarkSide.h; sourceTree = "<group>"; };
 		4D0A87D71A1B71E4008890CD /* WAYTheDarkSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSide.m; sourceTree = "<group>"; };
-		4D0A87E01A1B8D45008890CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4D0A87E11A1B8D52008890CD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4D0A87E21A1B8EAC008890CD /* WAYTheDarkSide Example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WAYTheDarkSide Example.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +60,6 @@
 		4D0A87A91A1B701D008890CD = {
 			isa = PBXGroup;
 			children = (
-				4D0A87E21A1B8EAC008890CD /* WAYTheDarkSide Example.png */,
-				4D0A87E11A1B8D52008890CD /* LICENSE */,
-				4D0A87E01A1B8D45008890CD /* README.md */,
 				4D0A87B41A1B701D008890CD /* WAYTheDarkSideDemo */,
 				4D0A87C81A1B701D008890CD /* WAYTheDarkSideDemoTests */,
 				4D0A87B31A1B701D008890CD /* Products */,
@@ -209,7 +202,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0A87E31A1B8EAC008890CD /* WAYTheDarkSide Example.png in Resources */,
 				4D0A87C01A1B701D008890CD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
