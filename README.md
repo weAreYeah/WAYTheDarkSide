@@ -9,13 +9,14 @@ Example
 -------
 
 ```objc
-// Let's define two handlers, which switch between the Vibrant Dark and the Vibrant Light appearance
+// The application decided to join the dark side
 [WAYTheDarkSide welcomeApplicationWithBlock:^{
 	[weakSelf.window setAppearance:[NSAppearance appearanceNamed:NSAppearanceNameVibrantDark]];
 	[weakSelf.contentView setMaterial:NSVisualEffectMaterialDark];
 	[self.label setStringValue:@"Dark!"];
 } immediately:YES];
 
+// The application decided to leave the dark side
 [WAYTheDarkSide outcastApplicationWithBlock:^{
 	[weakSelf.window setAppearance:[NSAppearance appearanceNamed:NSAppearanceNameVibrantLight]];
 	[weakSelf.contentView setMaterial:NSVisualEffectMaterialLight];
