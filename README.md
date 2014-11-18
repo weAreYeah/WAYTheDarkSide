@@ -24,6 +24,16 @@ Example
 } immediately:YES];
 ```
 
+or locally in your ```NSWindowController``` / ```NSViewController``` instances:
+
+```objc
+[WAYTheDarkSide welcomeObject:self withBlock:^{
+	 /* ... */ 
+} immediately:YES];
+
+[WAYTheDarkSide outcastObject:self withBlock:^{ /* ... */ } immediately:YES];
+```
+
 ![WAYTheDarkSide](WAYTheDarkSide%20Example.png)
 
 Usage
