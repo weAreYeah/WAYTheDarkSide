@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0A87B91A1B701D008890CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87B81A1B701D008890CD /* AppDelegate.m */; };
+		4D0A87BB1A1B701D008890CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87BA1A1B701D008890CD /* main.m */; };
+		4D0A87BD1A1B701D008890CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A87BC1A1B701D008890CD /* Images.xcassets */; };
+		4D0A87C01A1B701D008890CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0A87BE1A1B701D008890CD /* MainMenu.xib */; };
+		4D0A87CC1A1B701D008890CD /* WAYTheDarkSideDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A87CB1A1B701D008890CD /* WAYTheDarkSideDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D0A87C61A1B701D008890CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0A87AA1A1B701D008890CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0A87B11A1B701D008890CD;
+			remoteInfo = WAYTheDarkSideDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0A87B21A1B701D008890CD /* WAYTheDarkSideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAYTheDarkSideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0A87B61A1B701D008890CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0A87B71A1B701D008890CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D0A87B81A1B701D008890CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D0A87BA1A1B701D008890CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0A87BC1A1B701D008890CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D0A87BF1A1B701D008890CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D0A87C51A1B701D008890CD /* WAYTheDarkSideDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAYTheDarkSideDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0A87CA1A1B701D008890CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0A87CB1A1B701D008890CD /* WAYTheDarkSideDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAYTheDarkSideDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0A87AF1A1B701D008890CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0A87C21A1B701D008890CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0A87A91A1B701D008890CD = {
+			isa = PBXGroup;
+			children = (
+				4D0A87B41A1B701D008890CD /* WAYTheDarkSideDemo */,
+				4D0A87C81A1B701D008890CD /* WAYTheDarkSideDemoTests */,
+				4D0A87B31A1B701D008890CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0A87B31A1B701D008890CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A87B21A1B701D008890CD /* WAYTheDarkSideDemo.app */,
+				4D0A87C51A1B701D008890CD /* WAYTheDarkSideDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0A87B41A1B701D008890CD /* WAYTheDarkSideDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A87B71A1B701D008890CD /* AppDelegate.h */,
+				4D0A87B81A1B701D008890CD /* AppDelegate.m */,
+				4D0A87BC1A1B701D008890CD /* Images.xcassets */,
+				4D0A87BE1A1B701D008890CD /* MainMenu.xib */,
+				4D0A87B51A1B701D008890CD /* Supporting Files */,
+			);
+			path = WAYTheDarkSideDemo;
+			sourceTree = "<group>";
+		};
+		4D0A87B51A1B701D008890CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A87B61A1B701D008890CD /* Info.plist */,
+				4D0A87BA1A1B701D008890CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0A87C81A1B701D008890CD /* WAYTheDarkSideDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A87CB1A1B701D008890CD /* WAYTheDarkSideDemoTests.m */,
+				4D0A87C91A1B701D008890CD /* Supporting Files */,
+			);
+			path = WAYTheDarkSideDemoTests;
+			sourceTree = "<group>";
+		};
+		4D0A87C91A1B701D008890CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A87CA1A1B701D008890CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0A87B11A1B701D008890CD /* WAYTheDarkSideDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0A87CF1A1B701D008890CD /* Build configuration list for PBXNativeTarget "WAYTheDarkSideDemo" */;
+			buildPhases = (
+				4D0A87AE1A1B701D008890CD /* Sources */,
+				4D0A87AF1A1B701D008890CD /* Frameworks */,
+				4D0A87B01A1B701D008890CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WAYTheDarkSideDemo;
+			productName = WAYTheDarkSideDemo;
+			productReference = 4D0A87B21A1B701D008890CD /* WAYTheDarkSideDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D0A87C41A1B701D008890CD /* WAYTheDarkSideDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0A87D21A1B701D008890CD /* Build configuration list for PBXNativeTarget "WAYTheDarkSideDemoTests" */;
+			buildPhases = (
+				4D0A87C11A1B701D008890CD /* Sources */,
+				4D0A87C21A1B701D008890CD /* Frameworks */,
+				4D0A87C31A1B701D008890CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0A87C71A1B701D008890CD /* PBXTargetDependency */,
+			);
+			name = WAYTheDarkSideDemoTests;
+			productName = WAYTheDarkSideDemoTests;
+			productReference = 4D0A87C51A1B701D008890CD /* WAYTheDarkSideDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D0A87AA1A1B701D008890CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "We Are Yeah!";
+				TargetAttributes = {
+					4D0A87B11A1B701D008890CD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4D0A87C41A1B701D008890CD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4D0A87B11A1B701D008890CD;
+					};
+				};
+			};
+			buildConfigurationList = 4D0A87AD1A1B701D008890CD /* Build configuration list for PBXProject "WAYTheDarkSideDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D0A87A91A1B701D008890CD;
+			productRefGroup = 4D0A87B31A1B701D008890CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0A87B11A1B701D008890CD /* WAYTheDarkSideDemo */,
+				4D0A87C41A1B701D008890CD /* WAYTheDarkSideDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0A87B01A1B701D008890CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0A87BD1A1B701D008890CD /* Images.xcassets in Resources */,
+				4D0A87C01A1B701D008890CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0A87C31A1B701D008890CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0A87AE1A1B701D008890CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0A87BB1A1B701D008890CD /* main.m in Sources */,
+				4D0A87B91A1B701D008890CD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0A87C11A1B701D008890CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0A87CC1A1B701D008890CD /* WAYTheDarkSideDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D0A87C71A1B701D008890CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0A87B11A1B701D008890CD /* WAYTheDarkSideDemo */;
+			targetProxy = 4D0A87C61A1B701D008890CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D0A87BE1A1B701D008890CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0A87BF1A1B701D008890CD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0A87CD1A1B701D008890CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D0A87CE1A1B701D008890CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D0A87D01A1B701D008890CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WAYTheDarkSideDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D0A87D11A1B701D008890CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WAYTheDarkSideDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D0A87D31A1B701D008890CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WAYTheDarkSideDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAYTheDarkSideDemo.app/Contents/MacOS/WAYTheDarkSideDemo";
+			};
+			name = Debug;
+		};
+		4D0A87D41A1B701D008890CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WAYTheDarkSideDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAYTheDarkSideDemo.app/Contents/MacOS/WAYTheDarkSideDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0A87AD1A1B701D008890CD /* Build configuration list for PBXProject "WAYTheDarkSideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0A87CD1A1B701D008890CD /* Debug */,
+				4D0A87CE1A1B701D008890CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0A87CF1A1B701D008890CD /* Build configuration list for PBXNativeTarget "WAYTheDarkSideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0A87D01A1B701D008890CD /* Debug */,
+				4D0A87D11A1B701D008890CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0A87D21A1B701D008890CD /* Build configuration list for PBXNativeTarget "WAYTheDarkSideDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0A87D31A1B701D008890CD /* Debug */,
+				4D0A87D41A1B701D008890CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D0A87AA1A1B701D008890CD /* Project object */;
+}
