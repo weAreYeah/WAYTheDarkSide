@@ -7,20 +7,36 @@
 //
 
 #import "AppDelegate.h"
+#import "WAYTheDarkSide.h"
 
 @interface AppDelegate ()
-
 @property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSVisualEffectView *contentView;
+@property (weak) IBOutlet NSTextField *label;
 @end
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application
-}
+- (void) awakeFromNib {
+	[self.window setMovableByWindowBackground:YES];
+	[self.contentView setState:NSVisualEffectStateActive];
+	
+	__weak typeof(self)weakSelf = self;
+	
+	// Let's define two handlers, which switch between the Vibrant Dark and the Vibrant Light appearance
+	[WAYTheDarkSide welcomeApplicationWithBlock:^{
+		[weakSelf.window setAppearance:[NSAppearance appearanceNamed:NSAppearanceNameVibrantDark]];
+		[weakSelf.contentView setMaterial:NSVisualEffectMaterialDark];
+		[self.label setStringValue:@"Dark!"];
+	} immediately:YES];
+	
+	[WAYTheDarkSide outcastApplicationWithBlock:^{
+		[weakSelf.window setAppearance:[NSAppearance appearanceNamed:NSAppearanceNameVibrantLight]];
+		[weakSelf.contentView setMaterial:NSVisualEffectMaterialLight];
+		[self.label setStringValue:@"Light!"];
+	} immediately:YES];
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-	// Insert code here to tear down your application
+	[self.window makeKeyAndOrderFront:self];
 }
 
 @end
