@@ -7,9 +7,10 @@ Next, specify **event handlers** per view or window controller (or any other obj
 
 Yes, the names are a little ironic.
 
-**The long story**
+**Background**
 
 In 2014, OS X 10.10 Yosemite introduced a new system-wide Dark Mode, which makes the main menu and the Dock look dark and mean. In some situations, it may be appropriate to adapt the dark look in your application.
+
 However there do not seem to be some obvious APIs you can use to determine the current user setting or to handle setting change events. We provide the WAYTheDarkSide class to simplify the adaption of the new look.
 
 Example
