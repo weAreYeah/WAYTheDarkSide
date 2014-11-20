@@ -13,6 +13,8 @@ In 2014, OS X 10.10 Yosemite introduced a new system-wide Dark Mode, which makes
 
 However there do not seem to be some obvious APIs you can use to determine the current user setting or to handle setting change events. We provide the WAYTheDarkSide class to simplify the adaption of the new look.
 
+Note that this class does not provide automatic NSAppearance switching or any other on-the-fly adjustments. You need to take of re-defining the properties of your UI on your own within the blocks you specify.
+
 Example
 -------
 
@@ -55,6 +57,10 @@ It's quite simple, you should check the headers. The class provides no singleton
 or
 
 2. Specify a per-object event handler block using ```welcomeObject:withBlock:immediately:;``` and ```outcastObject:withBlock:immediately:;```.
+
+Note: If you have a smaller application, making use of ```welcomeApplicationWithBlock:immediately:;``` and ```outcastApplicationWithBlock:immediately:;``` may make sense.
+
+However you should consider to define the two blocks within every of your controller instances respectively using ```welcomeObject:withBlock:immediately``` and ```outcastObject:withBlock:immediately```. The reason for the per-object association is that the class internally maps a block to its owner (the controller) using a ```NSMapTable```. You can overwrite existing blocks by simply calling the methodss again and specifying the same object reference.
 
 
 Interesting
