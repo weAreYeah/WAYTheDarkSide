@@ -60,7 +60,9 @@ or
 
 Note: If you have a smaller application, making use of ```welcomeApplicationWithBlock:immediately:;``` and ```outcastApplicationWithBlock:immediately:;``` may make sense.
 
-However you should consider to define the two blocks within every of your controller instances respectively using ```welcomeObject:withBlock:immediately``` and ```outcastObject:withBlock:immediately```. The reason for the per-object association is that the class internally maps a block to its owner (the controller) using a ```NSMapTable```. You can overwrite existing blocks by simply calling the methodss again and specifying the same object reference.
+However you should consider to define the two blocks within every of your controller instances respectively using ```welcomeObject:withBlock:immediately:;``` and ```outcastObject:withBlock:immediately:;```.
+
+The reason for the per-object association is that the class internally maps a block to its owner (the controller) using a ```NSMapTable```. You can overwrite existing blocks by simply calling the methods and specifying the same object reference again.
 
 
 Interesting
