@@ -13,7 +13,7 @@ In 2014, OS X 10.10 Yosemite introduced a new system-wide Dark Mode, which makes
 
 However there do not seem to be some obvious APIs you can use to determine the current user setting or to handle setting change events. We provide the WAYTheDarkSide class to simplify the adaption of the new look.
 
-Note that this class does not provide automatic NSAppearance switching or any other on-the-fly adjustments. You need to take of re-defining the properties of your UI on your own within the blocks you specify.
+Note that this class does not provide automatic NSAppearance switching or any other on-the-fly adjustments. You need to take care of re-defining the properties of your UI on your own within the blocks you specify.
 
 Example
 -------
